@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mehak Khan | Full Stack Developer | Data Science & Machine Learning</title>
+  <meta name="description" content="Professional portfolio of Mehak Khan showcasing Full Stack Development, Data Science, Machine Learning, AI, Python, React and software projects.">
+  <meta name="author" content="Mehak Khan">
+  <meta name="theme-color" content="#0d1224">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mehak Khan | Full Stack Developer | Data Science & Machine Learning">
+  <meta property="og:description" content="Full Stack, Data Science and Machine Learning projects by Mehak Khan.">
+  <meta property="og:image" content="assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    /* apply saved theme before paint to avoid a flash */
+    try { var t = localStorage.getItem("mk-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="loader" class="loader" aria-hidden="true"><div class="loader__mark">MK</div><div class="loader__bar"><span></span></div></div>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="orbs" aria-hidden="true"><i></i><i></i></div>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a class="logo" href="#home" aria-label="Mehak Khan - home">MK</a>
+      <nav id="menu" class="menu" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="menu__cta">Contact</a>
+      </nav>
+      <div class="nav__tools">
+        <a class="icon-btn" data-link="github" href="#" target="_blank" rel="noopener" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+        <a class="icon-btn" data-link="linkedin" href="#" target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.04 3.78-2.04 4.04 0 4.78 2.66 4.78 6.1V21h-4v-4.97c0-1.19-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62V21h-4V9.75Z"/></svg></a>
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to light theme"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0-5h1v3h-2V2h1Zm0 17h1v3h-2v-3h1ZM2 11h3v2H2v-2Zm17 0h3v2h-3v-2ZM4.9 3.5l2.1 2.1-1.4 1.4-2.1-2.1 1.4-1.4Zm13.1 13.1 2.1 2.1-1.4 1.4-2.1-2.1 1.4-1.4ZM3.5 19.1l2.1-2.1 1.4 1.4-2.1 2.1-1.4-1.4ZM16.6 6l2.1-2.1 1.4 1.4L18 7.4 16.6 6Z"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 14.5A9 9 0 0 1 9.5 3a9 9 0 1 0 11.5 11.5Z"/></svg></button>
+        <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HOME -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="hero__hello">Hi, I'm</p>
+          <h1 id="hero-title">Mehak Khan</h1>
+          <p class="hero__role">Full Stack Developer | Data Science &amp; Machine Learning Enthusiast</p>
+          <p class="hero__intro">I build web applications and machine learning systems end to end - from cleaning data and training models to shipping the API and interface people actually use.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">View projects</a>
+            <a class="btn" data-link="resume" href="#" download>Download resume</a>
+            <a class="btn btn--ghost" href="#contact">Contact me</a>
+          </div>
+          <p class="hero__meta"><span id="heroLoc"></span> · Final-year BCA (Data Science) · Open to Data Science, ML and Python roles</p>
+        </div>
+        <div class="hero__side">
+          <figure class="portrait">
+            <img id="profileImg" src="assets/profile.jpg" alt="Portrait of Mehak Khan" width="360" height="420" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg'">
+          </figure>
+          <ol class="pipeline" aria-label="How I work: data, model, API, interface">
+            <li>Data</li><li>Model</li><li>API</li><li>Interface</li>
+          </ol>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section class="section section--tight" aria-labelledby="build-title">
+      <div class="wrap">
+        <h2 id="build-title" class="sr-only">What I build</h2>
+        <div class="build" id="buildGrid"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap about">
+        <div>
+          <h2 id="about-title" class="h2">About me</h2>
+          <p class="lead">Data scientist and machine learning engineer in the making, with the full-stack skills to put models into products.</p>
+          <p>I work across the full ML lifecycle - data preprocessing, EDA, feature engineering, predictive modelling and deployment - and build end-to-end pipelines and REST APIs with Python, Scikit-learn and Flask. I have hands-on experience with time series forecasting, classification, regression and database-backed systems (SQL / NoSQL).</p>
+          <p>On the web side I build with React, Node.js and Express, which is why my projects ship with a real interface, authentication and reports rather than living in a notebook.</p>
+        </div>
+        <div class="approach">
+          <h3 class="h3">How I work</h3>
+          <dl>
+            <div><dt>Build</dt><dd>Turn an idea into a working, deployed application.</dd></div>
+            <div><dt>Analyze</dt><dd>Explore the data and check the assumptions before modelling.</dd></div>
+            <div><dt>Solve</dt><dd>Choose the simplest approach that answers the problem.</dd></div>
+            <div><dt>Improve</dt><dd>Evaluate honestly, then iterate.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="head"><h2 id="skills-title" class="h2">Skills &amp; technologies</h2><p class="muted">Filter by area.</p></div>
+        <div class="tabs" id="skillTabs" role="tablist" aria-label="Skill categories"></div>
+        <div class="skills" id="skillGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="head"><h2 id="projects-title" class="h2">Projects</h2><p class="muted">Eight projects across full-stack, machine learning and computer vision. Open a case study for the workflow and architecture.</p></div>
+        <div class="toolbar">
+          <div class="tabs" id="projectTabs" role="group" aria-label="Filter projects"></div>
+          <label class="search"><span class="sr-only">Search projects</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
+        </div>
+        <div class="projects" id="projectGrid"></div>
+        <p class="empty" id="projectEmpty" hidden>No projects match that filter. Try another category or clear the search.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="wrap">
+        <div class="head"><h2 id="exp-title" class="h2">Experience &amp; education</h2></div>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications" aria-labelledby="cert-title">
+      <div class="wrap">
+        <div class="head"><h2 id="cert-title" class="h2">Certifications</h2></div>
+        <div class="certs" id="certGrid"></div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume" aria-labelledby="resume-title">
+      <div class="wrap resume">
+        <div>
+          <h2 id="resume-title" class="h2">Resume</h2>
+          <p class="lead">One page: summary, skills, projects, internships, education and certifications.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" data-link="resume" href="#" target="_blank" rel="noopener">View resume</a>
+            <a class="btn" data-link="resume" href="#" download>Download resume</a>
+          </div>
+        </div>
+        <object class="resume__preview" data-resume-object type="application/pdf" aria-label="Resume preview">
+          <p class="muted">Your browser can't preview PDFs here. Use the buttons to open or download the resume.</p>
+        </object>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact">
+        <div>
+          <h2 id="contact-title" class="h2">Let's talk</h2>
+          <p class="lead">Hiring for a data, ML or Python role, or have a project in mind? Send a message.</p>
+          <ul class="contact__links">
+            <li><span>Email</span><a data-link="email" href="#"></a></li>
+            <li><span>GitHub</span><a data-link="github-text" href="#" target="_blank" rel="noopener"></a></li>
+            <li><span>LinkedIn</span><a data-link="linkedin-text" href="#" target="_blank" rel="noopener"></a></li>
+            <li><span>Location</span><b id="contactLoc"></b></li>
+          </ul>
+        </div>
+        <form class="form" id="contactForm" novalidate>
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required><small class="err" id="e-name"></small></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required><small class="err" id="e-email"></small></div>
+          <div class="field"><label for="f-subject">Subject</label><input id="f-subject" name="subject" type="text" required><small class="err" id="e-subject"></small></div>
+          <div class="field"><label for="f-message">Message</label><textarea id="f-message" name="message" rows="5" required></textarea><small class="err" id="e-message"></small></div>
+          <button class="btn btn--primary" id="sendBtn" type="submit">Send message</button>
+          <p class="status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Mehak Khan</strong>
+        <p class="muted">Full Stack Developer | Data Science &amp; Machine Learning Enthusiast</p>
+        <p class="muted small">© 2026 Mehak Khan. All Rights Reserved.</p>
+      </div>
+      <nav aria-label="Footer"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+      <div class="footer__social"><a data-link="github" href="#" target="_blank" rel="noopener">GitHub</a><a data-link="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a><a data-link="email" href="#">Email</a></div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8l-4.6 4.6L5 12l7-7Z"/></svg></button>
+
+  <!-- Project case study -->
+  <dialog class="case" id="case" aria-labelledby="case-title">
+    <div class="case__bar">
+      <button class="btn btn--sm" type="button" id="casePrev">← Previous project</button>
+      <button class="btn btn--sm btn--ghost" type="button" id="caseClose">Back to projects</button>
+      <button class="btn btn--sm" type="button" id="caseNext">Next project →</button>
+    </div>
+    <article class="case__body" id="caseBody"></article>
+  </dialog>
+
+  <noscript><p style="padding:2rem;text-align:center">This portfolio needs JavaScript to display its content. Resume: <a href="assets/Mehak_Khan_Resume.pdf">download PDF</a>.</p></noscript>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

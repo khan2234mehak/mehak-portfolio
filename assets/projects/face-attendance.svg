@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" role="img" aria-label="Face Attendance cover">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ec4899"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="white" stroke-opacity=".12"/></pattern></defs>
+<rect width="1000" height="400" fill="url(#g)"/><rect width="1000" height="400" fill="url(#p)"/>
+<text x="60" y="320" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="46" fill="white">Face Attendance</text>
+<g transform="translate(250,0)"><g stroke="white" stroke-opacity=".9" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M385 130v-30h30M565 100h30v30M595 250v30h-30M415 280h-30v-30"/><ellipse cx="490" cy="190" rx="52" ry="68" fill="white" fill-opacity=".16"/><path d="M470 175v8M510 175v8M470 220q20 16 40 0"/></g></g></svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" role="img" aria-label="PropWise cover">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="white" stroke-opacity=".12"/></pattern></defs>
+<rect width="1000" height="400" fill="url(#g)"/><rect width="1000" height="400" fill="url(#p)"/>
+<text x="60" y="320" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="46" fill="white">PropWise</text>
+<g transform="translate(250,0)"><g stroke="white" stroke-opacity=".9" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M390 190L475 110 560 190V280H390Z" fill="white" fill-opacity=".16"/><path d="M450 280v-60h50v60"/><path d="M575 130l22-22M600 145h28"/></g></g></svg>
